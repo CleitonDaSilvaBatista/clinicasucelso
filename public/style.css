@@ -10,6 +10,15 @@ body{
     height: 100vh;
 }
 
+.container{
+    text-align: center;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
 form{
     background-color: #ffffff;
     padding: 30px;
@@ -18,24 +27,12 @@ form{
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-h1{
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
 input{
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    font-size: 14px;
-}
-
-input:focus{
-    border-color: #4a90e2;
-    outline: none;
 }
 
 button{
@@ -45,9 +42,7 @@ button{
     color: white;
     border: none;
     border-radius: 6px;
-    font-size: 15px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 button:hover{
